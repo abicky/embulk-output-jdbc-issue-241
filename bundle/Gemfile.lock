@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    embulk (0.9.17-java)
+      bundler (>= 1.10.6)
+      liquid (~> 4.0.0)
+      msgpack (~> 1.1.0)
+    embulk-output-mysql (0.8.2)
+    liquid (4.0.3)
+    msgpack (1.1.0-java)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  embulk
+  embulk-output-mysql (= 0.8.2)
+
+BUNDLED WITH
+   1.16.0
